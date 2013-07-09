@@ -23,7 +23,7 @@
     #define MBLabelAlignmentCenter UITextAlignmentCenter
 #endif
 
-static NSString  *KCommonFont = @"Heiti TC";
+static NSString  *KCommonFont = @"STHeitiSC-Medium";
 
 static const CGFloat kPadding = 4.f;
 static const CGFloat kLabelFontSize = 16.f;

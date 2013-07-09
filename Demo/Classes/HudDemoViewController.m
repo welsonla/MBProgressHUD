@@ -56,7 +56,7 @@
 	[self.navigationController.view addSubview:HUD];
 	
 	HUD.delegate = self;
-	HUD.labelText = @"Loading";
+	HUD.labelText = @"正在加载，请稍后....";
 	
 	[HUD showWhileExecuting:@selector(myTask) onTarget:self withObject:nil animated:YES];
 }
