@@ -23,6 +23,7 @@
     #define MBLabelAlignmentCenter UITextAlignmentCenter
 #endif
 
+static NSString  *KCommonFont = @"Heiti TC";
 
 static const CGFloat kPadding = 4.f;
 static const CGFloat kLabelFontSize = 16.f;
@@ -163,8 +164,8 @@ static const CGFloat kDetailsLabelFontSize = 12.f;
 		self.detailsLabelText = nil;
 		self.opacity = 0.8f;
         self.color = nil;
-		self.labelFont = [UIFont boldSystemFontOfSize:kLabelFontSize];
-		self.detailsLabelFont = [UIFont boldSystemFontOfSize:kDetailsLabelFontSize];
+		self.labelFont = [UIFont fontWithName:KCommonFont size:kLabelFontSize];
+		self.detailsLabelFont = [UIFont fontWithName:KCommonFont size:kDetailsLabelFontSize];
 		self.xOffset = 0.0f;
 		self.yOffset = 0.0f;
 		self.dimBackground = NO;
